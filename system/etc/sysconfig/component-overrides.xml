@@ -1,0 +1,5 @@
+<config>
+	<component-override package="com.android.bluetooth">
+		<component class=".hid.HidDeviceService" enabled="true" />
+	</component-override>
+</config>

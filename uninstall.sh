@@ -1,4 +1,4 @@
 
 mdir = $(magisk --path)
 
-rm "$mdir/.magisk/mirror/system/vendor/overlay/BluetoothHIDEnabler"
+rm "$mdir/.magisk/mirror/system/etc/sysconfig/component-overrides.xml"

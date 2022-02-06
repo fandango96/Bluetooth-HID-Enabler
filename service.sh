@@ -1,5 +1,5 @@
 
 mdir = $(magisk --path)
 
-cp "$MODPATH/system/vendor/overlay/BluetoothHIDEnabler/BluetoothHIDEnabler.apk" "$mdir/.magisk/mirror/system/vendor/overlay/BluetoothHIDEnabler"
+cp "$MODPATH/system/etc/sysconfig/component-overrides.xml" "$mdir/.magisk/mirror/system/etc/sysconfig"
 
